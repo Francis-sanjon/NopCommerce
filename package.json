@@ -20,7 +20,7 @@
     "node-xlsx": "^0.21.0"
   },
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run --config pageLoadTimeout=10000"
   },
   "author": "Francis",
   "license": "ISC",
