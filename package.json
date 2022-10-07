@@ -21,6 +21,7 @@
   },
   "scripts": {
     "test": "cypress run --config pageLoadTimeout=10000"
+    //francis
   },
   "author": "Francis",
   "license": "ISC",
