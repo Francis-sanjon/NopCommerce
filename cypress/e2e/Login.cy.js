@@ -3,7 +3,7 @@ import Login from './PageObjects/Login.spec'
 const lp=new Login();
 describe('empty spec', () => {
  
-  Given('User lanches the NopCommerce webpage', () => {
+  it('User lanches the NopCommerce webpage', () => {
     cy.visit('https://demo.nopcommerce.com/')
     lp.loginClik()
     
